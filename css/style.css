@@ -1,0 +1,104 @@
+/*CSS Reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Generics*/
+
+body{
+    font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    font-family: 'Nerko One', cursive;
+    color: #ff9614;
+    text-align: center;
+}
+
+main{
+    background-color: #f6f5f3;
+}
+
+footer{
+    background-color: #7c69a4;
+    padding: 1rem 3rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/*Utilis*/
+
+.container{
+    width: 100%;
+    padding: 1rem;
+}
+
+.flex{
+    display: flex;
+}
+
+/*Header*/
+
+/*Main*/
+
+.title{
+    min-height: 80px;
+    background-color: blue;
+}
+
+.video{
+    min-height: 300px;
+    background-color: red;
+}
+
+.recipe{
+    padding: 2rem;
+    background-color: black;
+}
+
+.nutrition{
+    min-height: 100px;
+    background-color: aqua;
+    padding: 1rem;
+}
+
+.nutrition .content{
+    background-color: blue;
+    min-height: 100px;
+}
+
+.preparation{
+    background-color: #ff9614;
+    min-height: 200px;
+}
+
+.social{
+    padding: 1rem 2rem;
+    background-color: brown;
+}
+
+.social ul{
+    justify-content: space-between;
+}
+
+.presentation figure{
+    min-height: 150px;
+    background-color: aqua;
+}
+
+/*Footer*/
+
+.address{
+    min-height: 50px;
+    background-color: #ff9614;
+}
+
+.link{
+    min-height: 50px;
+    background-color: aqua;
+}
