@@ -13,8 +13,8 @@ body{
 }
 
 header{
+    padding: 0.5rem;
     font-family: 'Nerko One', cursive;
-    color: #ff9614;
     text-align: center;
 }
 
@@ -43,6 +43,12 @@ ul{
 }
 
 /*Header*/
+.logo{
+    text-shadow: 1px 1px #666;
+    color: #ff9614;
+    font-weight: 900;
+    font-size: 36px;
+}
 
 /*Main*/
 
