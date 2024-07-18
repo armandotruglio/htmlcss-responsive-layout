@@ -68,4 +68,12 @@
         display: inline;
     }
     
+    footer{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .company-name, .adress{
+        text-align: left;
+    }
 }

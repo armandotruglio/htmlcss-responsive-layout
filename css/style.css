@@ -25,6 +25,7 @@ main{
 footer{
     background-color: #7c69a4;
     padding: 1rem 3rem;
+    color: white;
 }
 
 ul{
@@ -210,7 +211,7 @@ a{
 /*Presentation*/
 
 .presentation{
-    margin-bottom: 2rem;
+   padding-bottom: 2rem;
 }
 
 .presentation h2{
@@ -235,12 +236,20 @@ a{
 
 /*Footer*/
 
-.address{
-    min-height: 50px;
-    background-color: #ff9614;
+.company-name{
+    text-align: center;
+    font-weight: bolder;
 }
 
-.link{
-    min-height: 50px;
-    background-color: aqua;
+.adress{
+    text-align: center;
+}
+
+.link ul{
+    text-decoration: underline;
+    padding-top: 20px;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
