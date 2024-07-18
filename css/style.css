@@ -202,18 +202,35 @@ a{
     color:#e62222;
 }
 
-
-
-
-
 .info figure{
     margin: 2rem 0;
     display: none;
 }
 
-.presentation figure{
-    min-height: 150px;
-    background-color: aqua;
+/*Presentation*/
+
+.presentation{
+    margin-bottom: 2rem;
+}
+
+.presentation h2{
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.border{
+    background-color: #ff9614;
+    width: 10%;
+    height: 2px;
+}
+
+.presentation figure img{
+    width: 50%;
+    margin: 1rem auto;
+}
+
+.presentation p{
+    line-height: 1.7rem;
 }
 
 /*Footer*/

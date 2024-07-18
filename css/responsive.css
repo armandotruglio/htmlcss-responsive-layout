@@ -25,6 +25,12 @@
     .info figure{
         display: block;
     }
+
+    .presentation figure img{
+        width: 30%;
+        margin-right: 1rem;
+        float: left;
+    }
     
 }
 
