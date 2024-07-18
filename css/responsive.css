@@ -3,7 +3,63 @@
     header{
         text-align: left;
     }
+
+    .btn{
+        padding: 10px 50px;
+    }
+
+    .title h3 span{
+        display: inline;
+    }
+
+    .preparation ul{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px
+    }
+
+    .preparation li{
+        flex-basis: calc(100%/3 - 40px/3);
+    }
+
+    .info figure{
+        display: block;
+    }
     
 }
 
 /*Desktop view*/
+
+@media screen and (min-width: 993px){
+    .preparation ul{
+        flex-direction: column;
+    }
+
+    .video-recipe-container{
+        display: flex;
+    }
+
+    .video{
+        flex-basis: 70%;
+    }
+
+    .video iframe{
+        height: 37vw;
+    }
+
+    .recipe{
+        flex-basis: 30%;
+    }
+
+    .social ul{
+        gap: 10px;
+    }
+    .btn{
+        display: flex;
+    }
+
+    .social span{
+        display: inline;
+    }
+    
+}

@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Giallo Booleano</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
 </head>
@@ -25,7 +28,7 @@
             <div class="title">
                 <h5 class="type">DOLCI E DESSERT</h5>
                 <div class="intestation flex">
-                    <h3>Tiramisù</h3>
+                    <h3>Tiramisù <span>(Dolce Tradizionale)</span></h3>
                     <div class="rating">
                         <span>
                             <i class="fas fa-star"></i>
@@ -36,65 +39,90 @@
                 </div>
             </div>
 
-            <!--Video Section-->
-            <div class="video"><iframe src="https://www.youtube.com/embed/JVT900H6s0g?si=Oge3FMRllcobcdtq" ></iframe></div>
-
-            <!--Recipe info-->
-            <div class="recipe">
-
-                <div class="nutrition">
-                    <div class="flex">
-                        <span class="calories">544 kcal</span>
-                        <span class="more-info">+ Info</span>
-                    </div>
-                    <div class="diet-type">
-                        <i class="fas fa-carrot"></i>
-                        <span>VEGETARIANO</span>
-                    </div>
+            <div class="video-recipe-container">
+                <!--Video Section-->
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/JVT900H6s0g?si=Oge3FMRllcobcdtq"></iframe>
                 </div>
 
-                <div class="preparation">
-                    <ul class="flex">
-                        <li>
-                            <i class="fa-solid fa-blender"></i>
-                            Difficoltà: <strong>Facile</strong>
-                        </li>
-                        <li>
-                            <i class="fa-solid fa-clock"></i>
-                            Tempo: <strong>40 min</strong>
-                        </li>
-                        <li>
-                            <i class="fa-solid fa-chart-pie"></i>
-                            Porzione per: <strong>8 persone</strong>
-                        </li>
-                        <li>
-                            <i class="fa-solid fa-euro-sign"></i>
-                            Costo: <strong>contenuto</strong>
-                        </li>
-                        <li>
-                            <i class="fa-solid fa-thumbtack"></i>
-                            <strong>Note</strong>: +2 ore di riposo in frigo
-                        </li>
-                    </ul>
+                <!--Recipe info-->
+                <div class="recipe">
+
+                    <div class="nutrition">
+                        <div class="flex">
+                            <span class="calories">544 kcal</span>
+                            <span class="more-info">+ Info</span>
+                        </div>
+                        <div class="diet-type">
+                            <i class="fas fa-carrot"></i>
+                            <span>VEGETARIANO</span>
+                        </div>
+                    </div>
+
+                    <div class="preparation">
+                        <ul class="flex">
+                            <li>
+                                <i class="fa-solid fa-blender"></i>
+                                Difficoltà: <strong>Facile</strong>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-clock"></i>
+                                Tempo: <strong>40 min</strong>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-chart-pie"></i>
+                                Porzione per: <strong>8 persone</strong>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-euro-sign"></i>
+                                Costo: <strong>contenuto</strong>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-thumbtack"></i>
+                                <strong>Note</strong>: +2 ore di riposo in frigo
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 
 
             <div class="social">
                 <ul class="flex">
-                    <li><a href="#" class="btn">L</a></li>
-                    <li><a href="#" class="btn">L</a></li>
-                    <li><a href="#" class="btn">L</a></li>
-                    <li><a href="#" class="btn">L</a></li>
-                    <li><a href="#" class="btn">L</a></li>
+                    <li><a href="#" class="btn">
+                            <i class="fa-brands fa-facebook"></i>
+                            <span>FACEBOOK</span>
+                        </a></li>
+                    <li><a href="#" class="btn">
+                            <i class="fa-brands fa-twitter"></i>
+                            <span>TWITTER</span>
+                        </a></li>
+                    <li><a href="#" class="btn">
+                            <i class="fa-brands fa-instagram"></i>
+                            <span>INSTAGRAM</span>
+                        </a></li>
+                    <li><a href="#" class="btn">
+                            <i class="fa-brands fa-pinterest"></i>
+                            <span>PINTEREST</span>
+                        </a></li>
+                    <li><a href="#" class="btn">
+                            <i class="fa-brands fa-youtube"></i>
+                            <span>YOUTUBE</span>
+                        </a></li>
                 </ul>
             </div>
+
+            <figure class="banner">
+                <img src="img/banner.png" alt="Banner">
+            </figure>
         </section>
 
         <section class="presentation container">
             <h1>PRESENTATION</h1>
             <figure>IMG</figure>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum ratione reprehenderit officiis totam minima illum consequatur. Adipisci, sapiente sequi? Voluptate et nam debitis aut explicabo praesentium totam sunt, expedita aperiam!</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum ratione reprehenderit officiis totam
+                minima illum consequatur. Adipisci, sapiente sequi? Voluptate et nam debitis aut explicabo praesentium
+                totam sunt, expedita aperiam!</p>
         </section>
     </main>
 
@@ -102,6 +130,7 @@
         <div class="address">ADDRESS</div>
         <div class="link">LINKS</div>
     </footer>
-    
+
 </body>
+
 </html>
